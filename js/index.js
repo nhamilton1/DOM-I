@@ -117,8 +117,6 @@ bottomContent2.children[2].querySelector('h4').textContent = 'Vision'
 bottomContent2.children[2].querySelector('p').textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 
 
-
-
 // const bottomContent = document.querySelector('.bottom-content')
 // console.log(bottomContent)
 // const h4OfBottom = bottomContent.querySelector('h4')
@@ -149,4 +147,21 @@ const newLink = document.createElement('a')
 newLink.textContent = 'Blog'
 newLink.href = '#'
 document.querySelector('nav').appendChild(newLink)
+
+
+const contactArea = document.querySelector('.contact')
+console.log(contactArea)
+
+contactArea.children[0].textContent = 'Contact'
+contactArea.children[1].textContent = '123 Way 456 Street Somewhere, USA'
+contactArea.children[2].textContent = '1 (888) 888-8888'
+contactArea.children[3].textContent = 'sales@greatidea.io'
+console.log(contactArea.children)
+
+
+const endFooter = document.querySelector('footer')
+endFooter.children[0].textContent = 'Copyright Great Idea! 2018'
+console.log(endFooter)
+
+
 
