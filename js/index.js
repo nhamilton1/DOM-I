@@ -81,6 +81,13 @@ const buttonDOM = document.querySelector('button')
 // console.log(buttonDOM)
 buttonDOM.textContent = 'Get Started'
 
+function handleClick(){
+  console.log('I got clicked!')
+}
+
+
+buttonDOM.addEventListener('click', handleClick);
+
 
 
 //Middle content of page
