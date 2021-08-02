@@ -65,8 +65,10 @@ console.log(navGreen)
 //H1, IMG, BUTTON
 const h1ofBody = document.querySelector('h1');
 // console.log(h1ofBody);
-h1ofBody.textContent = 'DOM IS AWESOME';
-h1ofBody.style.width = '230px'
+const newline = "\r\n";
+h1ofBody.style.whiteSpace = 'pre'
+h1ofBody.textContent = 'DOM' + newline + 'IS' + newline + 'AWESOME';
+
 
 
 const roundImg = document.getElementById('cta-img');
