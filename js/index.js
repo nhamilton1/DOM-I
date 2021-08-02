@@ -63,11 +63,11 @@ navGreen[5].style.color = 'green'
 console.log(navGreen)
 
 //H1, IMG, BUTTON
-const h1ofBody = document.querySelector('h1');
+const h1Body = document.querySelector('h1');
 // console.log(h1ofBody);
-const newline = "\r\n";
-h1ofBody.style.whiteSpace = 'pre'
-h1ofBody.textContent = 'DOM' + newline + 'IS' + newline + 'AWESOME';
+const newline = "\n";
+h1Body.style.whiteSpace = 'pre'
+h1Body.textContent = 'DOM' + newline + 'IS' + newline + 'AWESOME';
 
 
 
