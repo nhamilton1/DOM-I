@@ -53,16 +53,28 @@ navItem[4].textContent = 'About'
 navItem[5].textContent = 'Contact'
 
 
+const navGreen = document.querySelectorAll('a');
+navGreen[0].style.color = 'green'
+navGreen[1].style.color = 'green'
+navGreen[2].style.color = 'green'
+navGreen[3].style.color = 'green'
+navGreen[4].style.color = 'green'
+navGreen[5].style.color = 'green'
+console.log(navGreen)
+
 //H1, IMG, BUTTON
 const h1ofBody = document.querySelector('h1');
 // console.log(h1ofBody);
 h1ofBody.textContent = 'DOM IS AWESOME';
+h1ofBody.style.width = '230px'
 
 
 const roundImg = document.getElementById('cta-img');
 // console.log(roundImg);
 roundImg.setAttribute('src', 'img/header-img.png');
 roundImg.setAttribute('alt', 'Image of a code snippet.');
+
+
 
 
 const buttonDOM = document.querySelector('button')
@@ -72,14 +84,6 @@ buttonDOM.textContent = 'Get Started'
 
 
 //Middle content of page
-
-// const data = [
-//   {h4: 'Features'},
-//   {h4: 'About'},
-//   {h4: 'Services'},
-//   {h4: 'Product'},
-//   {h4: 'Vision'},
-// ]
 
 const contentofMiddle = document.querySelector('.text-content');
 // console.log(contentofMiddle);
@@ -139,12 +143,9 @@ midPageAccent.setAttribute('alt', 'Image of code snippets across the screen');
 
 
 // adding new content
-
-
-
-
 const newLink = document.createElement('a')
 newLink.textContent = 'Blog'
+newLink.style.color = 'green'
 newLink.href = '#'
 document.querySelector('nav').appendChild(newLink)
 
@@ -152,13 +153,15 @@ document.querySelector('nav').appendChild(newLink)
 const contactArea = document.querySelector('.contact')
 console.log(contactArea)
 
+
+//contact section
 contactArea.children[0].textContent = 'Contact'
 contactArea.children[1].textContent = '123 Way 456 Street Somewhere, USA'
 contactArea.children[2].textContent = '1 (888) 888-8888'
 contactArea.children[3].textContent = 'sales@greatidea.io'
 console.log(contactArea.children)
 
-
+//footer
 const endFooter = document.querySelector('footer')
 endFooter.children[0].textContent = 'Copyright Great Idea! 2018'
 console.log(endFooter)
